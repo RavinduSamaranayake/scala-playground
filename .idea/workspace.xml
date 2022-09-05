@@ -4,8 +4,17 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e798c725-6ea7-4fd5-9ddd-531231637b6d" name="Changes" comment="init Playground">
-      <change afterPath="$PROJECT_DIR$/src/main/scala/com/kushan_scala/Basics.scala" afterDir="false" />
+    <list default="true" id="e798c725-6ea7-4fd5-9ddd-531231637b6d" name="Changes" comment="Completed Basics">
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/scala/com/kushan_scala/OopConcepts.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/scala/com/kushan_scala/scala_doc/HelloYou.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/scala/com/kushan_scala/scala_doc/Loops.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/scala/com/kushan_scala/scala_doc/MatchExpression.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/scala/com/kushan_scala/scala_doc/UserInputRead.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/scala/com/kushan_scala/scala_doc/scala_classes/Person.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/scala/com/kushan_scala/scala_doc/scala_classes/Person_Add.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/scala/com/kushan_scala/scala_doc/scala_classes/Person_Java.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/scala/com/kushan_scala/scala_doc/scala_classes/testClasses.scala" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -20,6 +29,13 @@
     <projectState path="$PROJECT_DIR$">
       <ProjectState />
     </projectState>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -45,16 +61,18 @@
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "run.code.analysis.last.selected.profile": "pProject Default"
+    "last_opened_file_path": "C:/Users/Ravindu/Desktop/Career/1st success/Learning/Scala/practice/scala-at-light-speed",
+    "run.code.analysis.last.selected.profile": "pProject Default",
+    "settings.editor.selected.configurable": "preferences.pluginManager"
   }
 }]]></component>
-  <component name="RunManager" selected="Application.Basics">
-    <configuration name="Basics" type="Application" factoryName="Application" temporary="true">
-      <option name="MAIN_CLASS_NAME" value="com.kushan_scala.Basics" />
+  <component name="RunManager" selected="Application.testClasses">
+    <configuration name="HelloYou" type="Application" factoryName="Application" temporary="true">
+      <option name="MAIN_CLASS_NAME" value="com.kushan_scala.scala_doc.HelloYou" />
       <module name="foundation" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.kushan_scala.*" />
+          <option name="PATTERN" value="com.kushan_scala.scala_doc.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -62,12 +80,51 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Playground" type="Application" factoryName="Application" temporary="true">
-      <option name="MAIN_CLASS_NAME" value="com.kushan_scala.Playground" />
+    <configuration name="Loops" type="Application" factoryName="Application" temporary="true">
+      <option name="MAIN_CLASS_NAME" value="com.kushan_scala.scala_doc.Loops" />
       <module name="foundation" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.kushan_scala.*" />
+          <option name="PATTERN" value="com.kushan_scala.scala_doc.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MatchExpression" type="Application" factoryName="Application" temporary="true">
+      <option name="MAIN_CLASS_NAME" value="com.kushan_scala.scala_doc.MatchExpression" />
+      <module name="foundation" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.kushan_scala.scala_doc.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="UserInputRead" type="Application" factoryName="Application" temporary="true">
+      <option name="MAIN_CLASS_NAME" value="com.kushan_scala.scala_doc.UserInputRead" />
+      <module name="foundation" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.kushan_scala.scala_doc.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="testClasses" type="Application" factoryName="Application" temporary="true">
+      <option name="MAIN_CLASS_NAME" value="com.kushan_scala.scala_doc.scala_classes.testClasses" />
+      <module name="foundation" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.kushan_scala.scala_doc.scala_classes.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -77,8 +134,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.Basics" />
-        <item itemvalue="Application.Playground" />
+        <item itemvalue="Application.testClasses" />
+        <item itemvalue="Application.MatchExpression" />
+        <item itemvalue="Application.Loops" />
+        <item itemvalue="Application.UserInputRead" />
+        <item itemvalue="Application.HelloYou" />
       </list>
     </recent_temporary>
   </component>
@@ -98,7 +158,14 @@
       <option name="project" value="LOCAL" />
       <updated>1662327987461</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Completed Basics">
+      <created>1662333083667</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1662333083667</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -115,6 +182,7 @@
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="init Playground" />
-    <option name="LAST_COMMIT_MESSAGE" value="init Playground" />
+    <MESSAGE value="Completed Basics" />
+    <option name="LAST_COMMIT_MESSAGE" value="Completed Basics" />
   </component>
 </project>
