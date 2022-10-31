@@ -4,8 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e798c725-6ea7-4fd5-9ddd-531231637b6d" name="Changes" comment="Worked with expressions and classes">
-      <change afterPath="$PROJECT_DIR$/src/main/scala/com/kushan_scala/scala_doc/complete_examples/Pizza.scala" afterDir="false" />
+    <list default="true" id="e798c725-6ea7-4fd5-9ddd-531231637b6d" name="Changes" comment="completed a full class example">
+      <change afterPath="$PROJECT_DIR$/src/main/scala/com/kushan_scala/robot_problem/java_sol/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/scala/com/kushan_scala/robot_problem/java_sol/RobotEntity.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/scala/com/kushan_scala/robot_problem/scala_sol/Robot.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/scala/com/kushan_scala/robot_problem/scala_sol/RobotOnAction.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/aws.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/aws.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -31,6 +35,9 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="mock:///Dummy.scala" root0="SKIP_HIGHLIGHTING" />
+  </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
@@ -52,18 +59,23 @@
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "last_opened_file_path": "C:/Users/Ravindu/Desktop/Career/Scala Playground/entry-level/foundation",
+    "last_opened_file_path": "C:/Users/Ravindu/Desktop/Career/Scala Playground/entry-level/foundation/src/main/scala/com/kushan_scala/robot_problem/java_sol",
     "run.code.analysis.last.selected.profile": "pProject Default",
     "settings.editor.selected.configurable": "preferences.pluginManager"
   }
 }]]></component>
-  <component name="RunManager" selected="Application.PizzaTest">
-    <configuration name="Loops" type="Application" factoryName="Application" temporary="true">
-      <option name="MAIN_CLASS_NAME" value="com.kushan_scala.scala_doc.Loops" />
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Ravindu\Desktop\Career\Scala Playground\entry-level\foundation\src\main\scala\com\kushan_scala\robot_problem\java_sol" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Application.RobotOnAction">
+    <configuration name="Basics" type="Application" factoryName="Application" temporary="true">
+      <option name="MAIN_CLASS_NAME" value="com.kushan_scala.Basics" />
       <module name="foundation" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.kushan_scala.scala_doc.*" />
+          <option name="PATTERN" value="com.kushan_scala.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -71,12 +83,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MatchExpression" type="Application" factoryName="Application" temporary="true">
-      <option name="MAIN_CLASS_NAME" value="com.kushan_scala.scala_doc.MatchExpression" />
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.kushan_scala.robot_problem.java_sol.Main" />
       <module name="foundation" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.kushan_scala.scala_doc.*" />
+          <option name="PATTERN" value="com.kushan_scala.robot_problem.java_sol.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -97,12 +109,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="UserInputRead" type="Application" factoryName="Application" temporary="true">
-      <option name="MAIN_CLASS_NAME" value="com.kushan_scala.scala_doc.UserInputRead" />
+    <configuration name="RobotOnAction" type="Application" factoryName="Application" temporary="true">
+      <option name="MAIN_CLASS_NAME" value="com.kushan_scala.robot_problem.scala_sol.RobotOnAction" />
       <module name="foundation" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.kushan_scala.scala_doc.*" />
+          <option name="PATTERN" value="com.kushan_scala.robot_problem.scala_sol.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -125,11 +137,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.RobotOnAction" />
+        <item itemvalue="Application.Main" />
+        <item itemvalue="Application.Basics" />
         <item itemvalue="Application.PizzaTest" />
         <item itemvalue="Application.testClasses" />
-        <item itemvalue="Application.MatchExpression" />
-        <item itemvalue="Application.Loops" />
-        <item itemvalue="Application.UserInputRead" />
       </list>
     </recent_temporary>
   </component>
@@ -163,7 +175,14 @@
       <option name="project" value="LOCAL" />
       <updated>1662392160692</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="completed a full class example">
+      <created>1662449690101</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1662449690101</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -182,6 +201,7 @@
     <MESSAGE value="init Playground" />
     <MESSAGE value="Completed Basics" />
     <MESSAGE value="Worked with expressions and classes" />
-    <option name="LAST_COMMIT_MESSAGE" value="Worked with expressions and classes" />
+    <MESSAGE value="completed a full class example" />
+    <option name="LAST_COMMIT_MESSAGE" value="completed a full class example" />
   </component>
 </project>
