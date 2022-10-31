@@ -4,21 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e798c725-6ea7-4fd5-9ddd-531231637b6d" name="Changes" comment="Completed Traits and Interfaces">
-      <change afterPath="$PROJECT_DIR$/src/main/scala/com/kushan_scala/scala_doc/collections/immutable/ImmutableMap.scala" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/scala/com/kushan_scala/scala_doc/collections/immutable/ImmutableSet.scala" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/scala/com/kushan_scala/scala_doc/collections/immutable/ListPlayGround.scala" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/scala/com/kushan_scala/scala_doc/collections/immutable/RangePlayGround.scala" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/scala/com/kushan_scala/scala_doc/collections/immutable/VectorPlayGround.scala" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/scala/com/kushan_scala/scala_doc/collections/mutable/ArrayBufferPlayGround.scala" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/scala/com/kushan_scala/scala_doc/collections/mutable/ListBufferPlayGround.scala" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/scala/com/kushan_scala/scala_doc/collections/mutable/MutableBitSets.scala" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/scala/com/kushan_scala/scala_doc/collections/mutable/MutableHashMaps.scala" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/scala/com/kushan_scala/scala_doc/collections/mutable/MutableQueuePlayground.scala" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/scala/com/kushan_scala/scala_doc/collections/mutable/MutableStackPlayground.scala" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/scala/com/kushan_scala/scala_doc/collections/mutable/StringBuilderPlayground.scala" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-    </list>
+    <list default="true" id="e798c725-6ea7-4fd5-9ddd-531231637b6d" name="Changes" comment="Completed Traits and Interfaces" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -63,21 +49,21 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "ASKED_ADD_EXTERNAL_FILES": "true",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "last_opened_file_path": "/home/kushanravindu/Workspace/Office Related/Scala Based/basic concepts/scala-playground/src/main/scala/com/kushan_scala/scala_doc",
-    "project.structure.last.edited": "Libraries",
-    "project.structure.proportion": "0.15",
-    "project.structure.side.proportion": "0.2",
-    "run.code.analysis.last.selected.profile": "pProject Default",
-    "scala_project_settings_configurable.last_selected_tab_index": "3",
-    "settings.editor.selected.configurable": "org.jetbrains.plugins.scala.settings.ScalaProjectSettingsConfigurable"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/home/kushanravindu/Workspace/Office Related/Scala Based/basic concepts/scala-playground/src/main/scala/com/kushan_scala/scala_doc&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Libraries&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
+    &quot;run.code.analysis.last.selected.profile&quot;: &quot;pProject Default&quot;,
+    &quot;scala_project_settings_configurable.last_selected_tab_index&quot;: &quot;3&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;org.jetbrains.plugins.scala.settings.ScalaProjectSettingsConfigurable&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/src/main/scala/com/kushan_scala/scala_doc" />
@@ -86,13 +72,13 @@
       <recent name="com.kushan_scala.scala_doc.compariosn_with_java.classes" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.MutableBitSets">
-    <configuration name="ArrayBufferPlayGround" type="Application" factoryName="Application" temporary="true">
-      <option name="MAIN_CLASS_NAME" value="com.kushan_scala.scala_doc.collections.mutable.ArrayBufferPlayGround" />
+  <component name="RunManager" selected="Application.ScalaRunner">
+    <configuration name="Basics" type="Application" factoryName="Application" temporary="true">
+      <option name="MAIN_CLASS_NAME" value="com.kushan_scala.Basics" />
       <module name="foundation" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.kushan_scala.scala_doc.collections.mutable.*" />
+          <option name="PATTERN" value="com.kushan_scala.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -100,12 +86,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MutableBitSets" type="Application" factoryName="Application" temporary="true">
-      <option name="MAIN_CLASS_NAME" value="com.kushan_scala.scala_doc.collections.mutable.MutableBitSets" />
+    <configuration name="JavaRunner" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.kushan_scala.scala_doc.compariosn_with_java.classes.JavaRunner" />
       <module name="foundation" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.kushan_scala.scala_doc.collections.mutable.*" />
+          <option name="PATTERN" value="com.kushan_scala.scala_doc.compariosn_with_java.classes.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -113,12 +99,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MutableHashMaps" type="Application" factoryName="Application" temporary="true">
-      <option name="MAIN_CLASS_NAME" value="com.kushan_scala.scala_doc.collections.mutable.MutableHashMaps" />
+    <configuration name="Playground" type="Application" factoryName="Application" temporary="true">
+      <option name="MAIN_CLASS_NAME" value="com.kushan_scala.Playground" />
       <module name="foundation" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.kushan_scala.scala_doc.collections.mutable.*" />
+          <option name="PATTERN" value="com.kushan_scala.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -126,12 +112,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MutableQueuePlayground" type="Application" factoryName="Application" temporary="true">
-      <option name="MAIN_CLASS_NAME" value="com.kushan_scala.scala_doc.collections.mutable.MutableQueuePlayground" />
+    <configuration name="RobotOnAction" type="Application" factoryName="Application" temporary="true">
+      <option name="MAIN_CLASS_NAME" value="com.kushan_scala.robot_problem.scala_sol.RobotOnAction" />
       <module name="foundation" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.kushan_scala.scala_doc.collections.mutable.*" />
+          <option name="PATTERN" value="com.kushan_scala.robot_problem.scala_sol.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -139,12 +125,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MutableStackPlayground" type="Application" factoryName="Application" temporary="true">
-      <option name="MAIN_CLASS_NAME" value="com.kushan_scala.scala_doc.collections.mutable.MutableStackPlayground" />
+    <configuration name="ScalaRunner" type="Application" factoryName="Application" temporary="true">
+      <option name="MAIN_CLASS_NAME" value="com.kushan_scala.scala_doc.compariosn_with_java.classes.ScalaRunner" />
       <module name="foundation" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.kushan_scala.scala_doc.collections.mutable.*" />
+          <option name="PATTERN" value="com.kushan_scala.scala_doc.compariosn_with_java.classes.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -154,11 +140,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.MutableBitSets" />
-        <item itemvalue="Application.MutableHashMaps" />
-        <item itemvalue="Application.MutableStackPlayground" />
-        <item itemvalue="Application.MutableQueuePlayground" />
-        <item itemvalue="Application.ArrayBufferPlayGround" />
+        <item itemvalue="Application.ScalaRunner" />
+        <item itemvalue="Application.JavaRunner" />
+        <item itemvalue="Application.Basics" />
+        <item itemvalue="Application.RobotOnAction" />
+        <item itemvalue="Application.Playground" />
       </list>
     </recent_temporary>
   </component>
