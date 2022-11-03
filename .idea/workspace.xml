@@ -4,19 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e798c725-6ea7-4fd5-9ddd-531231637b6d" name="Changes" comment="Completed Traits and Interfaces">
-      <change afterPath="$PROJECT_DIR$/src/main/scala/com/kushan_scala/scala_doc/collections/immutable/ImmutableMap.scala" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/scala/com/kushan_scala/scala_doc/collections/immutable/ImmutableSet.scala" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/scala/com/kushan_scala/scala_doc/collections/immutable/ListPlayGround.scala" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/scala/com/kushan_scala/scala_doc/collections/immutable/RangePlayGround.scala" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/scala/com/kushan_scala/scala_doc/collections/immutable/VectorPlayGround.scala" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/scala/com/kushan_scala/scala_doc/collections/mutable/ArrayBufferPlayGround.scala" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/scala/com/kushan_scala/scala_doc/collections/mutable/ListBufferPlayGround.scala" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/scala/com/kushan_scala/scala_doc/collections/mutable/MutableBitSets.scala" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/scala/com/kushan_scala/scala_doc/collections/mutable/MutableHashMaps.scala" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/scala/com/kushan_scala/scala_doc/collections/mutable/MutableQueuePlayground.scala" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/scala/com/kushan_scala/scala_doc/collections/mutable/MutableStackPlayground.scala" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/scala/com/kushan_scala/scala_doc/collections/mutable/StringBuilderPlayground.scala" afterDir="false" />
+    <list default="true" id="e798c725-6ea7-4fd5-9ddd-531231637b6d" name="Changes" comment="Completed Collections in SCALA">
+      <change afterPath="$PROJECT_DIR$/src/main/scala/com/kushan_scala/typeclasses/TestTypeClasses.scala" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -69,7 +58,7 @@
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "last_opened_file_path": "/home/kushanravindu/Workspace/Office Related/Scala Based/basic concepts/scala-playground/src/main/scala/com/kushan_scala/scala_doc",
+    "last_opened_file_path": "/home/kushanravindu/Workspace/Office Related/Scala Based/basic concepts/scala-playground",
     "project.structure.last.edited": "Libraries",
     "project.structure.proportion": "0.15",
     "project.structure.side.proportion": "0.2",
@@ -86,20 +75,7 @@
       <recent name="com.kushan_scala.scala_doc.compariosn_with_java.classes" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.MutableBitSets">
-    <configuration name="ArrayBufferPlayGround" type="Application" factoryName="Application" temporary="true">
-      <option name="MAIN_CLASS_NAME" value="com.kushan_scala.scala_doc.collections.mutable.ArrayBufferPlayGround" />
-      <module name="foundation" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.kushan_scala.scala_doc.collections.mutable.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="Application.TestTypeClasses">
     <configuration name="MutableBitSets" type="Application" factoryName="Application" temporary="true">
       <option name="MAIN_CLASS_NAME" value="com.kushan_scala.scala_doc.collections.mutable.MutableBitSets" />
       <module name="foundation" />
@@ -152,13 +128,26 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="TestTypeClasses" type="Application" factoryName="Application" temporary="true">
+      <option name="MAIN_CLASS_NAME" value="com.kushan_scala.typeclasses.TestTypeClasses" />
+      <module name="foundation" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.kushan_scala.typeclasses.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.TestTypeClasses" />
         <item itemvalue="Application.MutableBitSets" />
         <item itemvalue="Application.MutableHashMaps" />
         <item itemvalue="Application.MutableStackPlayground" />
         <item itemvalue="Application.MutableQueuePlayground" />
-        <item itemvalue="Application.ArrayBufferPlayGround" />
       </list>
     </recent_temporary>
   </component>
@@ -223,7 +212,14 @@
       <option name="project" value="LOCAL" />
       <updated>1666762364683</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="Completed Collections in SCALA">
+      <created>1666811532109</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1666811532109</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -244,7 +240,8 @@
     <MESSAGE value="Worked with expressions and classes" />
     <MESSAGE value="init comparing with java and scala" />
     <MESSAGE value="Completed Traits and Interfaces" />
-    <option name="LAST_COMMIT_MESSAGE" value="Completed Traits and Interfaces" />
+    <MESSAGE value="Completed Collections in SCALA" />
+    <option name="LAST_COMMIT_MESSAGE" value="Completed Collections in SCALA" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
