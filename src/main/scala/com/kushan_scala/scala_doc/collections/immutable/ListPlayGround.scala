@@ -4,6 +4,10 @@ object ListPlayGround extends App {
   //same as List charList = List.of(1,2,3,4,5,6) in java
   val anyList = List('a', 'b', 'c', 'd', 'e',"Hello",3)
 
+  val firstElement = anyList.head
+  val rest = anyList.tail
+  println(s"head : $firstElement and tail : $rest")
+
   val anyList2 = anyList.appended('k', 'm') // we can't add modify same object collection and instead of that we can create
   // a separate collection with appending to the previous collection
   println(anyList2)
