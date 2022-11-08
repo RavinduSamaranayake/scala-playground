@@ -96,7 +96,13 @@ object ObjectOrientation extends App {
   val animalCanLive = Animal.canLive // "static" fields/methods
   println(animalCanLive)
   /*
-
+  case classes = lightweight data structures with some boilerplate
+  - sensible equals and hash code
+  - serialization
+  - companion with apply
+  - pattern matching
   */
-
+  case class Person(name : String, age : Int)
+  // may be constructed without new
+  val bob = Person("Bob",54) // Person.apply("Bob",54)
 }
