@@ -4,13 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e798c725-6ea7-4fd5-9ddd-531231637b6d" name="Changes" comment="Init with PatternMatching and FunctionalProgramming">
-      <change afterPath="$PROJECT_DIR$/src/main/scala/com/kushan_scala/functiona_programming/HigherOrderFunctions.scala" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/scala/com/kushan_scala/scala_doc/collections/Collections.scala" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/scala_sdk_2_13_8.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules/foundation.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules/foundation.iml" afterDir="false" />
+    <list default="true" id="e798c725-6ea7-4fd5-9ddd-531231637b6d" name="Changes" comment="Completed functional and some collections">
+      <change afterPath="$PROJECT_DIR$/src/main/scala/com/kushan_scala/oop/ObjectOrientation.scala" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/scala/com/kushan_scala/scala_doc/collections/immutable/ListPlayGround.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/com/kushan_scala/scala_doc/collections/immutable/ListPlayGround.scala" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -82,26 +78,13 @@
       <recent name="com.kushan_scala.scala_doc.compariosn_with_java.classes" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Collections">
+  <component name="RunManager" selected="Application.ObjectOrientation">
     <configuration name="Collections" type="Application" factoryName="Application" temporary="true">
       <option name="MAIN_CLASS_NAME" value="com.kushan_scala.scala_doc.collections.Collections" />
       <module name="foundation" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="com.kushan_scala.scala_doc.collections.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="FunctionalProgramming" type="Application" factoryName="Application" temporary="true">
-      <option name="MAIN_CLASS_NAME" value="com.kushan_scala.functiona_programming.FunctionalProgramming" />
-      <module name="foundation" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.kushan_scala.functiona_programming.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -135,6 +118,19 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="ObjectOrientation" type="Application" factoryName="Application" temporary="true">
+      <option name="MAIN_CLASS_NAME" value="com.kushan_scala.oop.ObjectOrientation" />
+      <module name="foundation" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.kushan_scala.oop.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="PatternMatching" type="Application" factoryName="Application" temporary="true">
       <option name="MAIN_CLASS_NAME" value="com.kushan_scala.pattern_matching.PatternMatching" />
       <module name="foundation" />
@@ -150,11 +146,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.ObjectOrientation" />
         <item itemvalue="Application.Collections" />
         <item itemvalue="Application.ListPlayGround" />
         <item itemvalue="Application.HigherOrderFunctions" />
         <item itemvalue="Application.PatternMatching" />
-        <item itemvalue="Application.FunctionalProgramming" />
       </list>
     </recent_temporary>
   </component>
@@ -240,7 +236,14 @@
       <option name="project" value="LOCAL" />
       <updated>1667637514798</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="Completed functional and some collections">
+      <created>1667715384902</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1667715384902</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -265,7 +268,8 @@
     <MESSAGE value="Completed Main Monads Law in SCALA" />
     <MESSAGE value="Completed Some future concepts in scala" />
     <MESSAGE value="Init with PatternMatching and FunctionalProgramming" />
-    <option name="LAST_COMMIT_MESSAGE" value="Init with PatternMatching and FunctionalProgramming" />
+    <MESSAGE value="Completed functional and some collections" />
+    <option name="LAST_COMMIT_MESSAGE" value="Completed functional and some collections" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
