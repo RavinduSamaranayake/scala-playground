@@ -87,11 +87,33 @@ object Advanced extends App {
   //but for now just don't think about it. think of future try an option as some sort of a collection
 
   /**
-   *4. Implicits
+   *4. Implicits //use this carefully
    **/
   //this is the most powerfully feature of scala compiler
+  // #1: implicit arguments
+  def aMethodWithImplicitArgs(implicit arg : Int) = arg + 1
+  implicit val myImplicitInt: Int = 46
+  println(aMethodWithImplicitArgs) //aMethodWithImplicitArgs(myImplicitInt) : output = 47
+
+  // #2: implicit conversions
 
 
+  implicit class MyRichInteger(n:Int){
+    def isEven: Boolean = n%2 == 0
+    def isOdd: Boolean = n % 2 != 0
+  }
+  /*
+  compiler process :
+  this code does not normally compile let me find an implicit wrapper over this value over here which is an int.
+  maybe I can find one and maybe just maybe that class hasn't isEven method so the compiler is kind enough to do
+  new MyRichInteger with the number 23 and then call isEven() method on that
+   */
 
+  println(23.isEven) //new MyRichInteger(23).isEven()
+
+  println(23.isOdd)
+
+  // isEven method does not belong to the Int class so if I remove implicit modifier this class notice that this code turns red
+  //because the method is not available for the int type.
 
 }

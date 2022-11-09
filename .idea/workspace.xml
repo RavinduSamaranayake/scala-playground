@@ -4,9 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e798c725-6ea7-4fd5-9ddd-531231637b6d" name="Changes" comment="completed OOP">
-      <change afterPath="$PROJECT_DIR$/src/main/scala/com/kushan_scala/advance_concepts/Advanced.scala" afterDir="false" />
+    <list default="true" id="e798c725-6ea7-4fd5-9ddd-531231637b6d" name="Changes" comment="Init with Advanced Concepts">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/scala/com/kushan_scala/advance_concepts/Advanced.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/com/kushan_scala/advance_concepts/Advanced.scala" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -257,7 +257,14 @@
       <option name="project" value="LOCAL" />
       <updated>1667916015367</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="Init with Advanced Concepts">
+      <created>1667922069937</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1667922069937</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -285,7 +292,8 @@
     <MESSAGE value="Completed functional and some collections" />
     <MESSAGE value="init with OOP" />
     <MESSAGE value="completed OOP" />
-    <option name="LAST_COMMIT_MESSAGE" value="completed OOP" />
+    <MESSAGE value="Init with Advanced Concepts" />
+    <option name="LAST_COMMIT_MESSAGE" value="Init with Advanced Concepts" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
