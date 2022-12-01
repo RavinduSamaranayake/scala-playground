@@ -1,6 +1,6 @@
 package com.kushan_scala.monads
 
-object UsageExample1 {
+object UsageExample1 extends App {
   //census
 
   case class Person(firstName : String,lastName : String){
@@ -34,4 +34,13 @@ object UsageExample1 {
     fname <- Option(firstName)
     lname <- Option(lastName)
   } yield Person(fname,lname)
+
+  println(getPersonBetter(null,"Samaranayake"))
+  println(getPersonFor(null,"Samaranayake"))
+
+  println(getPersonBetter("Kushan", null))
+  println(getPersonFor("Kushan", null))
+
+  println(getPersonBetter("Kushan", "Samaranayake"))
+  println(getPersonFor("Kushan", "Samaranayake"))
 }

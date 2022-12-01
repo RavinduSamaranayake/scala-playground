@@ -4,9 +4,40 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e798c725-6ea7-4fd5-9ddd-531231637b6d" name="Changes" comment="Init with Advanced Concepts">
+    <list default="true" id="e798c725-6ea7-4fd5-9ddd-531231637b6d" name="Changes" comment="Completed Advanced Concepts">
+      <change afterPath="$PROJECT_DIR$/.idea/.name" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/sbt__org_scala_lang_modules_scala_xml_2_13_2_0_1_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/sbt__org_scala_lang_scala_library_2_13_8_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/sbt__org_scala_lang_scala_reflect_2_13_8_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/sbt__org_scalactic_scalactic_2_13_3_2_11_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/sbt__org_scalatest_scalatest_2_13_3_2_11_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/sbt__org_scalatest_scalatest_compatible_3_2_11_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/sbt__org_scalatest_scalatest_core_2_13_3_2_11_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/sbt__org_scalatest_scalatest_diagrams_2_13_3_2_11_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/sbt__org_scalatest_scalatest_featurespec_2_13_3_2_11_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/sbt__org_scalatest_scalatest_flatspec_2_13_3_2_11_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/sbt__org_scalatest_scalatest_freespec_2_13_3_2_11_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/sbt__org_scalatest_scalatest_funspec_2_13_3_2_11_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/sbt__org_scalatest_scalatest_funsuite_2_13_3_2_11_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/sbt__org_scalatest_scalatest_matchers_core_2_13_3_2_11_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/sbt__org_scalatest_scalatest_mustmatchers_2_13_3_2_11_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/sbt__org_scalatest_scalatest_propspec_2_13_3_2_11_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/sbt__org_scalatest_scalatest_refspec_2_13_3_2_11_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/sbt__org_scalatest_scalatest_shouldmatchers_2_13_3_2_11_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/sbt__org_scalatest_scalatest_wordspec_2_13_3_2_11_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/scala/com/kushan_scala/SampleCalculator.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/scala/com/kushan_scala/companion_objects/CompanionObjectPlayground.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/scala/com/kushan_scala/folding/FoldingPlayground.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/scala/SampleTests.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/scala/ScalaCalculator.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/scala/flatspec/FlatSpecSampleTest.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/scala/funSpec/ListFunSpec.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules/foundation-build.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules/foundation-build.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules/foundation.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules/foundation.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/scala/com/kushan_scala/advance_concepts/Advanced.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/com/kushan_scala/advance_concepts/Advanced.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build.sbt" beforeDir="false" afterPath="$PROJECT_DIR$/build.sbt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/scala/com/kushan_scala/monads/UsageExample1.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/com/kushan_scala/monads/UsageExample1.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/scala/com/kushan_scala/monads/UsageExample2.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/com/kushan_scala/monads/UsageExample2.scala" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -78,13 +109,13 @@
       <recent name="com.kushan_scala.scala_doc.compariosn_with_java.classes" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Advanced">
-    <configuration name="Advanced" type="Application" factoryName="Application" temporary="true">
-      <option name="MAIN_CLASS_NAME" value="com.kushan_scala.advance_concepts.Advanced" />
+  <component name="RunManager" selected="Application.FoldingPlayground">
+    <configuration name="CompanionObjectPlayground" type="Application" factoryName="Application" temporary="true">
+      <option name="MAIN_CLASS_NAME" value="com.kushan_scala.companion_objects.CompanionObjectPlayground" />
       <module name="foundation" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.kushan_scala.advance_concepts.*" />
+          <option name="PATTERN" value="com.kushan_scala.companion_objects.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -92,12 +123,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Collections" type="Application" factoryName="Application" temporary="true">
-      <option name="MAIN_CLASS_NAME" value="com.kushan_scala.scala_doc.collections.Collections" />
+    <configuration name="FoldingPlayground" type="Application" factoryName="Application" temporary="true">
+      <option name="MAIN_CLASS_NAME" value="com.kushan_scala.folding.FoldingPlayground" />
       <module name="foundation" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.kushan_scala.scala_doc.collections.*" />
+          <option name="PATTERN" value="com.kushan_scala.folding.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -105,12 +136,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ImportantPoints" type="Application" factoryName="Application" temporary="true">
-      <option name="MAIN_CLASS_NAME" value="com.kushan_scala.ImportantPoints" />
+    <configuration name="UsageExample1" type="Application" factoryName="Application" temporary="true">
+      <option name="MAIN_CLASS_NAME" value="com.kushan_scala.monads.UsageExample1" />
       <module name="foundation" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.kushan_scala.*" />
+          <option name="PATTERN" value="com.kushan_scala.monads.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -118,12 +149,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ListPlayGround" type="Application" factoryName="Application" temporary="true">
-      <option name="MAIN_CLASS_NAME" value="com.kushan_scala.scala_doc.collections.immutable.ListPlayGround" />
+    <configuration name="UsageExample2" type="Application" factoryName="Application" temporary="true">
+      <option name="MAIN_CLASS_NAME" value="com.kushan_scala.monads.UsageExample2" />
       <module name="foundation" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.kushan_scala.scala_doc.collections.immutable.*" />
+          <option name="PATTERN" value="com.kushan_scala.monads.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -131,12 +162,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ObjectOrientation" type="Application" factoryName="Application" temporary="true">
-      <option name="MAIN_CLASS_NAME" value="com.kushan_scala.oop.ObjectOrientation" />
+    <configuration name="UsageExample3" type="Application" factoryName="Application" temporary="true">
+      <option name="MAIN_CLASS_NAME" value="com.kushan_scala.monads.UsageExample3" />
       <module name="foundation" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.kushan_scala.oop.*" />
+          <option name="PATTERN" value="com.kushan_scala.monads.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -146,11 +177,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.Advanced" />
-        <item itemvalue="Application.ImportantPoints" />
-        <item itemvalue="Application.ObjectOrientation" />
-        <item itemvalue="Application.Collections" />
-        <item itemvalue="Application.ListPlayGround" />
+        <item itemvalue="Application.FoldingPlayground" />
+        <item itemvalue="Application.UsageExample2" />
+        <item itemvalue="Application.UsageExample3" />
+        <item itemvalue="Application.UsageExample1" />
+        <item itemvalue="Application.CompanionObjectPlayground" />
       </list>
     </recent_temporary>
   </component>
@@ -264,7 +295,14 @@
       <option name="project" value="LOCAL" />
       <updated>1667922069937</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="Completed Advanced Concepts">
+      <created>1667960433772</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1667960433772</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -293,7 +331,8 @@
     <MESSAGE value="init with OOP" />
     <MESSAGE value="completed OOP" />
     <MESSAGE value="Init with Advanced Concepts" />
-    <option name="LAST_COMMIT_MESSAGE" value="Init with Advanced Concepts" />
+    <MESSAGE value="Completed Advanced Concepts" />
+    <option name="LAST_COMMIT_MESSAGE" value="Completed Advanced Concepts" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />

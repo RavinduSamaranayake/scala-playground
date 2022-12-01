@@ -31,7 +31,7 @@ object UsageExample2 extends App {
   val vatIncludedPrice: Future[Double] = getUser(webUrl).flatMap(user => getLastOrder(user.id))
     .map(order => order.price.*(1.9))
 
-  vatIncludedPrice.onComplete(value => println(value))
+  //vatIncludedPrice.onComplete(value => println(value))
 
   println(s"Price from FlatMap approach : $vatIncludedPrice")
 
